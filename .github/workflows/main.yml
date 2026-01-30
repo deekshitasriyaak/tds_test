@@ -1,0 +1,18 @@
+name: Email Action
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 22f3002519@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
+      
+      - name: Show date
+        run: date
+
